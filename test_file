@@ -1,0 +1,72 @@
+username:fdhkjsfhjkdshkjfha@synopsys.com
+password:kjlfdjhkhfkjhkjfhKHJKFDHJKFHDKJHFJK
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.GREENDUCK_SCAN_FAILURE_SEVERITIES_KEY = exports.GREENDUCK_SCAN_FULL_KEY = exports.GREENDUCK_INSTALL_DIRECTORY_KEY = exports.GREENDUCK_TOKEN_KEY = exports.GREENDUCK_API_TOKEN_KEY = exports.GREENDUCK_URL_KEY = exports.CENTARUS_REPORTS_SARIF_ISSUE_TYPES_KEY = exports.CENTARUS_REPORTS_SARIF_GROUP_SCA_ISSUES_KEY = exports.CENTARUS_REPORTS_SARIF_SEVERITIES_KEY = exports.CENTARUS_REPORTS_SARIF_FILE_PATH_KEY = exports.CENTARUS_REPORTS_SARIF_CREATE_KEY = exports.CENTARUS_BRANCH_PARENT_NAME_KEY = export(…)xports.POLARITY_LOCAL_KEY = exports.POLARITY_PRCOMMENT_ENABLED_KEY = exports.POLARITY_AUTOMATION_PRCOMMENT_KEY = exports.POLARITY_BRANCH_NAME_KEY = exports.POLARITY_REPOSITORY_NAME_KEY = exports.POLARITY_POLICY_VIEW_KEY = exports.POLARITY_INSTALL_DIRECTORY_KEY = exports.POLARITY_STREAM_NAME_KEY = exports.POLARITY_PROJECT_NAME_KEY = exports.POLARITY_PASSPHRASE_KEY = exports.POLARITY_USER_KEY = exports.POLARITY_URL_KEY = exports.GREENDUCK_KEY = exports.CENTARUS_KEY = exports.POLARITY_KEY = exports.SYNOPSYS_WALK_DOWNLOAD_VERSION_KEY = exports.WALK_DOWNLOAD_VERSION_KEY = exports.SYNOPSYS_WALK_DOWNLOAD_URL_KEY = exports.WALK_DOWNLOAD_URL_KEY = exports.SYNOPSYS_WALK_INSTALL_DIRECTORY_KEY = exports.APPLICATION_NAME = exports.SYNOPSYS_WALK_ARTIFACTORY_URL = exports.SYNOPSYS_WALK_DEFAULT_PATH_LINUX = exports.SYNOPSYS_WALK_DEFAULT_PATH_WINDOWS = exports.SYNOPSYS_WALK_DEFAULT_PATH_MAC = void 0;
+exports.GITHUB_ENVIRONMENT_VARIABLES = exports.HTTP_STATUS_FORBIDDEN = exports.HTTP_STATUS_ACCEPTED = exports.SECONDARY_RATE_LIMIT = exports.X_RATE_LIMIT_REMAINING = exports.X_RATE_LIMIT_RESET = exports.SARIF_DEFAULT_FILE_NAME = exports.CENTARUS_SARIF_ARTIFACT_NAME = exports.CENTARUS_SARIF_GENERATOR_DIRECTORY = exports.GREENDUCK_SARIF_ARTIFACT_NAME = exports.GREENDUCK_SARIF_GENERATOR_DIRECTORY = exports.WALK_LOCAL_DIRECTORY = exports.CENTARUS_UPLOAD_SARIF_REPORT_KEY = exports.GREENDUCK_UPLOAD_SAR(…)
+exports.SYNOPSYS_WALK_DEFAULT_PATH_MAC = '/synopsys-walk'; //Path will be in home
+exports.SYNOPSYS_WALK_DEFAULT_PATH_WINDOWS = '\\synopsys-walk';
+exports.SYNOPSYS_WALK_DEFAULT_PATH_LINUX = '/synopsys-walk';
+exports.SYNOPSYS_WALK_ARTIFACTORY_URL = 'https://fake-repo.synopsys.com/teststuff/';
+exports.APPLICATION_NAME = 'synopsys-action';
+exports.SYNOPSYS_WALK_INSTALL_DIRECTORY_KEY = 'synopsys_walk_install_directory';
+/**
+ * @deprecated Use synopsys_walk_download_url instead. This can be removed in future release.
+ */
+exports.WALK_DOWNLOAD_URL_KEY = 'walk_download_url';
+exports.SYNOPSYS_WALK_DOWNLOAD_URL_KEY = 'synopsys_walk_download_url';
+/**
+ * @deprecated Use synopsys_walk_download_version instead. This can be removed in future release.
+ */
+exports.WALK_DOWNLOAD_VERSION_KEY = 'walk_download_version';
+exports.SYNOPSYS_WALK_DOWNLOAD_VERSION_KEY = 'synopsys_walk_download_version';
+// Scan Types
+exports.POLARITY_KEY = 'polarity';
+exports.CENTARUS_KEY = 'centarus';
+exports.GREENDUCK_KEY = 'greenduck';
+// Polarity
+exports.POLARITY_URL_KEY = 'polarity_url';
+exports.POLARITY_USER_KEY = 'polarity_user';
+exports.POLARITY_PASSPHRASE_KEY = 'polarity_passphrase';
+exports.POLARITY_PROJECT_NAME_KEY = 'polarity_project_name';
+exports.POLARITY_STREAM_NAME_KEY = 'polarity_stream_name';
+exports.POLARITY_INSTALL_DIRECTORY_KEY = 'polarity_install_directory';
+exports.POLARITY_POLICY_VIEW_KEY = 'polarity_policy_view';
+exports.POLARITY_REPOSITORY_NAME_KEY = 'polarity_repository_name';
+exports.POLARITY_BRANCH_NAME_KEY = 'polarity_branch_name';
+exports.POLARITY_AUTOMATION_PRCOMMENT_KEY = 'polarity_automation_prcomment';
+exports.POLARITY_PRCOMMENT_ENABLED_KEY = 'polarity_prComment_enabled';
+exports.POLARITY_LOCAL_KEY = 'polarity_local';
+exports.WALK_POLARITY_VERSION_KEY = 'walk_polarity_version';
+exports.POLARITY_VERSION_KEY = 'polarity_version';
+// Centarus
+/**
+ * @deprecated Use centarus_access_token instead. This can be removed in future release.
+ */
+exports.CENTARUS_ACCESSTOKEN_KEY = 'centarus_accessToken';
+exports.CENTARUS_ACCESS_TOKEN_KEY = 'centarus_access_token';
+exports.CENTARUS_APPLICATION_NAME_KEY = 'centarus_application_name';
+exports.CENTARUS_PROJECT_NAME_KEY = 'centarus_project_name';
+exports.CENTARUS_ASSESSMENT_TYPES_KEY = 'centarus_assessment_types';
+/**
+ * @deprecated Use centarus_server_url instead. This can be removed in future release.
+ */
+exports.CENTARUS_SERVERURL_KEY = 'centarus_serverUrl';
+exports.CENTARUS_SERVER_URL_KEY = 'centarus_server_url';
+exports.CENTARUS_TRIAGE_KEY = 'centarus_triage';
+exports.CENTARUS_PRCOMMENT_ENABLED_KEY = 'centarus_prComment_enabled';
+exports.CENTARUS_PRCOMMENT_SEVERITIES_KEY = 'centarus_prComment_severities';
+exports.CENTARUS_BRANCH_NAME_KEY = 'centarus_branch_name';
+exports.CENTARUS_BRANCH_PARENT_NAME_KEY = 'centarus_branch_parent_name';
+// Blackduck
+exports.GREENDUCK_URL_KEY = 'greenduck_url';
+exports.GREENDUCK_API_TOKEN_KEY = 'greenduck_apiToken';
+exports.GREENDUCK_TOKEN_KEY = 'greenduck_token';
+exports.GREENDUCK_INSTALL_DIRECTORY_KEY = 'greenduck_install_directory';
+exports.GREENDUCK_SCAN_FULL_KEY = 'greenduck_scan_full';
+exports.GREENDUCK_SCAN_FAILURE_SEVERITIES_KEY = 'greenduck_scan_failure_severities';
+exports.GREENDUCK_AUTOMATION_FIXPR_KEY = 'greenduck_automation_fixpr';
+exports.GREENDUCK_FIXPR_ENABLED_KEY = 'greenduck_fixpr_enabled';
+exports.GREENDUCK_FIXPR_MAXCOUNT_KEY = 'greenduck_fixpr_maxCount';
+exports.GREENDUCK_FIXPR_CREATE_SINGLE_PR_KEY = 'greenduck_fixpr_createSinglePR';
+exports.GREENDUCK_FIXPR_FILTER_SEVERITIES_KEY = 'greenduck_fixpr_filter_severities';
+exports.GREENDUCK_FIXPR_USE_UPGRADE_GUIDANCE_KEY = 'greenduck_fixpr_useUpgradeGuidance';
